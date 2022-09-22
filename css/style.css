@@ -1,0 +1,82 @@
+
+
+.ani-box h1{
+    font-size: 80px;
+    color: #00Be74;
+    white-space: nowrap;
+    overflow:hidden;
+    animation: text 6s;
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width:11ch ;
+    }
+}
+
+
+.banner-section{
+    background-color: #e2e2e2;
+}
+
+.banner-textarea{
+padding: 100px 0px;
+}
+.banner-section img{
+    width: 500px;
+}
+.info-box ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.ash-font{
+    color: #000;
+    opacity: 0.5;
+}
+.service-section{
+    background-color: #2b3940;
+}
+.service-section i{
+    font-size: 50px;
+}
+.hov{
+    background-color: #fff;
+}
+.hov{
+    transition: 0.5s;
+}
+.hov:hover{
+    background-color: #00Be74;
+}
+
+.hov:hover i{
+ color:rgb(246, 240, 240) 
+}
+.hov:hover h3{
+ color:rgb(246, 240, 240) 
+}
+.hov:hover p{
+ color:rgb(246, 240, 240) 
+}
+.tr{
+    background-color: #00Be74;
+    padding: 8px 10px;
+    border: none;
+    }
+.tr:hover{
+    background-color: #000;
+}
+.tr:hover{
+   color: #fff;
+}
+
+.animation-box{
+    font-size: 222px;
+    font-weight: 0ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:text 6s steps(11)
+}
